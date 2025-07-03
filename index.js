@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const stripe = require('stripe')(process.env.STRIPE_KEY);
 const port = 3000
-
+// index js
 app.use(cors())
 app.use(express.json())
 
